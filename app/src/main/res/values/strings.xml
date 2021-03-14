@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Register_tilloop1_Login</string>
+    <string name="home_text">Register or Login</string>
+    <string name="button_register">Register here</string>
+    <string name="button_login">Login here</string>
+    <string name="register_text">Registration Form</string>
+    <string name="login_text">Login</string>
+    <string name="first_name">First Name</string>
+    <string name="family_name">Family Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="dob">Date of birth (MM/DD/YYYY)</string>
+</resources>
