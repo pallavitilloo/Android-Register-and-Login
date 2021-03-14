@@ -50,7 +50,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="text"
-                android:id="@+id/tbFirstName"/>
+                android:id="@+id/tbFirstName"
+                android:background="@color/light_yellow"/>
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -83,7 +84,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="text"
-                android:id="@+id/tbFamilyName"/>
+                android:id="@+id/tbFamilyName"
+                android:background="@color/light_yellow"/>
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -115,7 +117,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textEmailAddress"
-                android:id="@+id/tbEmail"/>
+                android:id="@+id/tbEmail"
+                android:background="@color/light_yellow"/>
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -148,7 +151,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPassword"
-                android:id="@+id/tbPassword"/>
+                android:id="@+id/tbPassword"
+                android:background="@color/light_yellow"/>
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -169,6 +173,7 @@
             android:layout_width="0dp"
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
+            android:paddingBottom="20dp"
             android:layout_height="wrap_content"
             app:layout_constraintTop_toBottomOf="@+id/tvDOB"
             app:layout_constraintRight_toRightOf="parent"
@@ -180,7 +185,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="date"
-                android:id="@+id/tbDOB"/>
+                android:id="@+id/tbDOB"
+                android:background="@color/light_yellow"/>
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -190,15 +196,15 @@
         android:layout_height="wrap_content"
         android:onClick="register_user"
         android:paddingLeft="20dp"
-        android:paddingTop="20dp"
         android:paddingRight="20dp"
         android:text="@string/button_register"
         android:textSize="20sp"
+        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/layout5"
-        app:layout_constraintVertical_bias=".2" />
+        android:backgroundTint="@color/bee_launcher_background"/>
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
